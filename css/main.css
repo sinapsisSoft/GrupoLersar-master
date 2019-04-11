@@ -423,6 +423,24 @@ section {
 	margin-left: -17px;
 }
 /*************************
+********Work model CSS*******
+**************************/
+#job-model {
+	background-image: url(../images/GOPR4292.jpg);
+	padding: 60px 0;
+}
+#job-model h2 {
+	margin-top: 0;
+	color: #fff;
+}
+#job-model .lead {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#job-model h1 {
+	margin-bottom: 30px;
+}
+/*************************
 *********Team CSS*********
 **************************/
 #team {
