@@ -22,11 +22,15 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333;
 }
 h2 {
-	font-size: 30px;
-	margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #94171B;
 }
 h3 {
-	font-size: 18px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .parallax {
 	background-size: cover;
@@ -68,6 +72,11 @@ a:focus, a:hover {
 section {
 	padding: 90px 0;
 }
+
+.division{
+  background: #ececec94;
+}
+
 .heading {
 	padding-bottom: 90px;
 }
@@ -237,6 +246,19 @@ section {
 	-webkit-transition: background-color 0.2s ease;
 	transition: background-color 0.2s ease;
 }
+
+.corporative {
+  margin: 20px;
+  height: 280px;
+  border: #94171B 0.5px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.etics {
+  margin-top: 40px;
+}
+
 .our-services .col-sm-4:hover .service-icon {
 	background-color: #333;
 }
