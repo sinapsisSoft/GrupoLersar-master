@@ -247,6 +247,10 @@ section {
 	-webkit-transition: background-color 0.2s ease;
 	transition: background-color 0.2s ease;
 }
+.service-icon:hover{
+  background-color: #94171B;
+  transition: 0.5s;
+}
 
 .corporative {
   margin: 20px;
@@ -282,7 +286,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-	background-image: url(../images/GOPR4292.jpg);
+	background-image: url(../images/GOPR42921.jpg);
 	padding: 60px 0;
 }
 #about-us h2 {
@@ -427,7 +431,7 @@ section {
 ********Work model CSS*******
 **************************/
 #job-model {
-	background-image: url(../images/GOPR4292.jpg);
+	background-image: url(../images/GOPR42921.jpg);
 	padding: 60px 0;
 }
 #job-model h2 {
@@ -441,6 +445,24 @@ section {
 #job-model h1 {
 	margin-bottom: 30px;
 }
+.job-item {
+  background-color: #fff;
+  color: #001D7D;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.job-item:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  box-shadow: inset 0 0 0 3px #94171B;
+}
+
+.job-item h3 {
+  color: #94171B;
+}
+
 /*************************
 *********Team CSS*********
 **************************/
@@ -518,7 +540,7 @@ section {
 **************************/
 #features {
 	text-align: center;
-	background-image: url(../images/GOPR4279.jpg);
+	background-image: url(../images/GOPR42791.jpg);
 }
 #features i {
 	font-size: 48px;
@@ -745,7 +767,7 @@ section {
 	height: 350px;
 }
 #contact-us {
-	background-image: url(../images/GOPR4321_edited.jpg);
+	background-image: url(../images/GOPR43211.jpg);
 	padding-bottom: 90px;
 }
 #contact-us .heading {
