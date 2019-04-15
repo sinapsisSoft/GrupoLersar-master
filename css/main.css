@@ -480,11 +480,15 @@ section {
 /*************************
 *********Team CSS*********
 **************************/
+
 #team {
 	padding-top: 0;
 }
 .team-members {
 	margin-bottom: 25px;
+}
+.our-team{
+  height: 300px;
 }
 .social-icons {
 	margin-top: 30px;
@@ -879,3 +883,30 @@ ul.address {
 }
 
 /*Presets*/
+
+/*************************
+*********Scroll to up*****
+**************************/
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+}
+
+.back-to-top i {
+  display: block;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #94171B;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
