@@ -482,7 +482,24 @@ section {
 **************************/
 
 #team {
-	padding-top: 0;
+
+padding: 60px 0;
+height: 400px;
+}
+#team .count{
+	text-align: center;
+}
+#team i {
+	font-size: 48px;
+}
+#team h3 {
+	margin-top: 15px;
+	font-size: 30px;
+	margin-bottom: 7px;
+	color: #fff;
+}
+#team .slider-overlay {
+	opacity: 0.8;
 }
 .team-members {
 	margin-bottom: 25px;
