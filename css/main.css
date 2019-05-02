@@ -43,7 +43,7 @@ h3 {
 }
 .parallax input[type="text"], .parallax input[type="text"]:hover, .parallax input[type="email"], .parallax input[type="email"]:hover, .parallax input[type="url"], .parallax input[type="url"]:hover, .parallax input[type="password"], .parallax input[type="password"]:hover, .parallax textarea, .parallax textarea:hover {
 	font-weight: 300;
-	color: #fff;
+	color: #001d7d;
 }
 .btn {
 	border: 5;
@@ -809,7 +809,7 @@ height: 400px;
 	padding-top: 95px;
 }
 .form-control {
-	background-color: transparent;
+	background-color: #f9f6f6e0;
 	border-color: rgba(203, 206, 222, 0.45);
 	height: 50px;
 	border-radius: 10px;
